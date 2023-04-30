@@ -2,8 +2,28 @@
 body{
     margin: auto;
     background-color: black; 
+    color:white;
 }
-
+/* for dark and light mode */
+.mylight{
+    background-color:white;
+    color:black;
+}
+.moon {
+    display: none;
+  }
+  
+.sun {
+    display: block;
+  }
+  
+.mylight .moon {
+    display: block;
+  }
+  
+.mylight .sun {
+    display: none;
+}
 /*Header Section*/
 header{
      height: 80px;
@@ -51,7 +71,18 @@ input{
     margin-left: 50px;
     margin-top: 24px;
 }
-
+#mode{
+    background-color: black;
+    width: 3%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-color: black;
+}
+#mode img{
+   height:100% ;
+   width: 100%;
+   
+}
 /*banner*/
 #banner{
     height: 400px;
@@ -59,8 +90,8 @@ input{
     background-image: url(Images/cromabanner.avif);
     background-size:  100% 400px;
 }
-
 /*Main Body*/
+
 
 .mainBody{
      width: 80%;
@@ -72,7 +103,7 @@ input{
 }
 
 #MainHead{
-    color: white;
+    /* color: white; */
     margin-left: 2%;
     font-size: 30px;
     
@@ -158,7 +189,7 @@ input{
     width: 100%;
 }
 .caption{
-    color: white;
+    /* color: white; */
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -196,7 +227,7 @@ input{
     background-image: url(Images/tatabg.webp);
 }
 #heading{
-    color: white;
+    /* color: white; */
     font-size: 26px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 4%;
@@ -207,7 +238,7 @@ input{
     background-size: 100% ;
 }
 #prefooter p{
-    color: white;
+    /* color: white; */
     font-size: 16px;
 }
 
@@ -218,7 +249,7 @@ footer{
     background-color:#1d1d1d ;
 }
 footer div h5{
-    color: white;
+     color: white; 
     padding-top: 5%;
 }
 footer div input{
@@ -226,7 +257,7 @@ footer div input{
     padding-left: -5px;
 }
 #footText{
-    color: white;
+     color: white; 
     font-size: 16px;
 }
 #footcent{
