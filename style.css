@@ -24,6 +24,28 @@ body{
 .mylight .sun {
     display: none;
 }
+/* Coupon */
+#main{
+    z-index:1;
+} 
+
+#coupon{
+    height:383px;
+    width:856px;
+    /* background-color: red; */
+    z-index:100;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 22%;
+    visibility: hidden;
+}
+#coupon img{
+    height: 100%;
+    width: 100%;
+}
+#close{
+    color: black;
+}
 /*Header Section*/
 header{
      height: 80px;
@@ -31,6 +53,8 @@ header{
      position: sticky;
      top: 0; 
      width: 100%;
+     z-index:1;
+
 } 
  
 #Img > a > img{
@@ -87,7 +111,7 @@ input{
 #banner{
     height: 400px;
     /*border: 2px solid black;*/
-    background-image: url(Images/cromabanner.avif);
+    background-image: url(Images/coupon\ image.avif);
     background-size:  100% 400px;
 }
 /*Main Body*/

@@ -23,6 +23,7 @@
         <script src="croma.js"></script>
     </head>
     <body>
+      <div id="main">
         <header>
             <!--Croma Logo 2-->
             <div id="Img">
@@ -65,6 +66,11 @@
                 </button>
             </div>
         </header>
+        <!--Coupon-->
+        <div id="coupon">
+            <button id="close" onClick="closeCoupon()">&times;</button>
+            <img src="Images/cromabanner.avif" alt="coupons">
+        </div>
         <div id="banner"></div>
         <div class="mainBody">
             <h2 id="MainHead">Highlights</h2>
@@ -396,5 +402,9 @@
               </div>
             </div>
         </footer>
+      </div>
+        <script>
+            window.onload = loadCoupon()
+        </script>
     </body>
 </html>
